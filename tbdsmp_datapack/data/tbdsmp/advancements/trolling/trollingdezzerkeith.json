@@ -2,13 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Maniac"
+            "text": "Keith!?!?"
         },
         "description": {
-            "text": "Mine 1,000 Obsidian"
+            "text": "NO NOT AGAIN"
         },
         "icon": {
-            "item": "minecraft:obsidian"
+            "item": "minecraft:magma_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,12 @@
         "hidden": false
     },
     "criteria": {
-        "Obby2": {
-            "trigger": "minecraft:impossible"
+        "Keith": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:magma_block"
+            }
         }
     },
-    "parent": "tbdsmp:obby100"
+    "parent": "tbdsmp:trolling/trollingdezzer"
 }

@@ -17,7 +17,12 @@
     },
     "criteria": {
         "luck": {
-            "trigger": "minecraft:effects_changed"
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "luck": {}
+                }
+            }
         }
     },
     "parent": "tbdsmp:dudududu"

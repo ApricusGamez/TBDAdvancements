@@ -31,21 +31,20 @@
         "hidden": false
 
     },
-
     "criteria": {
-
-        "trollingshort": {
-
+        "trolling": {
             "trigger": "minecraft:brewed_potion",
-
             "conditions": {
-
                 "potion": "minecraft:invisibility"
-
             }
-
+        },
+        "trollinglong": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_invisibility"
+            }
         }
-
-    }
-
+    },
+    "requirements": [["trolling", "trollinglong"]],
+    "parent": "tbdsmp:root"
 }

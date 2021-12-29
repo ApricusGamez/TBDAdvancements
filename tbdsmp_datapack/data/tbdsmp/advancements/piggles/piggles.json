@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Piggles Enjoyer"
+        },
+        "description": {
+            "text": "Ride a pig named Piggles"
+        },
+        "icon": {
+            "item": "minecraft:pig_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "PigglesEnjoyer": {
+            "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:pig",
+                "nbt": "{CustomName:'{\"text\":\"Piggles\"}'}"
+              }
+            }
+          }
+        ]
+      }
+        }
+    },
+    "parent": "tbdsmp:root"
+}

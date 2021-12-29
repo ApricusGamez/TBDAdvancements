@@ -2,10 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Bro! Hello? Is everything alright in your brain?"
+            "text": "What the actual heck I will personally hunt you down this is not ok "
         },
         "description": {
-            "text": "Mine 100,000 Obsidian"
+            "text": "Mine 1,000,000 Obsidian"
         },
         "icon": {
             "item": "minecraft:crying_obsidian"
@@ -16,9 +16,9 @@
         "hidden": true
     },
     "criteria": {
-        "Obby4": {
+        "Obby5": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:obby10.000"
+    "parent": "tbdsmp:obby/obby100.000"
 }

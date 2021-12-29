@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:anvil",
+                        "items": ["minecraft:anvil"],
                         "count": {
                             "min": 64,
                             "max": 64

@@ -2,13 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Best Bedwars Defence"
+            "text": "Found"
         },
         "description": {
-            "text": "When in doubt, use a smoke bomb."
+            "text": "w h a t"
         },
         "icon": {
-            "item": "minecraft:sponge"
+            "item": "minecraft:sweet_berries"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,20 +16,21 @@
         "hidden": false
     },
     "criteria": {
-        "Bedwar": {
+        "Head": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:sponge"],
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner: {Name: DezzerLad},}",
                         "count": {
                             "min": 1,
-                            "max": 64
+                            "max": 1
                         }
                     }
                 ]
             }
         }
     },
-    "parent": "tbdsmp:root"
+    "parent": "tbdsmp:trolling/trolling"
 }

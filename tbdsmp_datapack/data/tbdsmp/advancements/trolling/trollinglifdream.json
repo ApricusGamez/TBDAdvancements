@@ -2,13 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Piggles Enjoyer"
+            "text": "Life could be a dream"
         },
         "description": {
-            "text": "Ride a pig"
+            "text": "Swim in a coral reef"
         },
         "icon": {
-            "item": "minecraft:pig_spawn_egg"
+            "item": "minecraft:horn_coral"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,14 +16,14 @@
         "hidden": false
     },
     "criteria": {
-        "PigglesEnjoyer": {
-            "trigger": "minecraft:player_interacted_with_entity",
+        "LifeDream": {
+            "trigger": "minecraft:location",
             "conditions": {
-                "entity": {
-                    "type": "minecraft:pig"
-                }
+                "biome": "minecraft:warm_ocean",
+                "dimension": "overworld",
+                "smokey": false
             }
         }
     },
-    "parent": "tbdsmp:root"
+    "parent": "tbdsmp:trolling/trolling"
 }

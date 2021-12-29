@@ -29,5 +29,5 @@
             }
         }
     },
-    "parent": "tbdsmp:piggles"
+    "parent": "tbdsmp:piggles/piggles"
 }

@@ -33,71 +33,23 @@
     },
 
     "criteria": {
-
         "FixPls": {
-
             "trigger": "minecraft:entity_hurt_player",
-
             "conditions": {
-
                 "damage": {
-
-                    "dealt": {
-
-                        "min": 0,
-
-                        "max": 1000
-
-                    },
-
-                    "taken": {
-
-                        "min": 0,
-
-                        "max": 1000
-
-                    },
-
                     "type": {
-
-                        "direct_entity": {
-
-                            "type": "minecraft:creeper"
-
-                        },
-
-                        "source_entity": {
-
-                            "type": "minecraft:creeper"
-
-                        }
-
-                    },
-
-                    "source_entity": {
-
-                        "type": "minecraft:creeper"
-
+                        "is_explosion": true
                     }
-
                 }
-
             }
-
         },
-
         "fixlocation": {
-
             "trigger": "minecraft:location",
-
             "conditions": {
-
                 "biome": "minecraft:savanna"
-
             }
-
         }
-
-    }
-
+    },
+    "requirements": [["FixPls"], ["fixlocation"]],
+    "parent": "tbdsmp:japannah/japannahexpand"
 }

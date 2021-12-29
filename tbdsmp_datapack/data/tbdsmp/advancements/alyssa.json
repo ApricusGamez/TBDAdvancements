@@ -21,7 +21,20 @@
             "conditions": {
                 "potion": "minecraft:swiftness"
             }
+        },
+        "DrugsLong": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_swiftness"
+            }
+        },
+        "DrugsStrong": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:strong_swiftness"
+            }
         }
     },
+    "requirements": [["Drugs", "DrugsLong", "DrugsStrong"]],
     "parent": "tbdsmp:root"
 }
