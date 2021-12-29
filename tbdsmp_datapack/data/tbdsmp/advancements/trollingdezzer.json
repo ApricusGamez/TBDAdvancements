@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Found"
+        },
+        "description": {
+            "text": "w h a t"
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:player_head",
+                        "nbt": "{SkullOwner: {Id: [I; 1993893498, 482362475, -1135413480, -2084820382], Properties: {textures: [{Signature: \"Jt1IL/pVLvVa21rcElFlZsvhFK9nFiswxxOOQNQ3K2NS+5U+zF0wQ+mFnFumQ+hrQtW2F/Ya7itjtIcZAkVjIN55ZjYYv6YtyG0lcWfAW2YbDQjsSdaA116KJ2/J1mB15aUxPBWhepFT3J9fA6wLTDcuG8QpEb9gJazO783bFwJO7bEy/++B0jP2A7DyqxZTAQPjKbnAk2rVQp9EYfVU3AH6cj4xB7uOfhj0oxKdi5DVeiclmVvkhOq+qJ/ZsplGdLVjkTB8+hoteXKCmnbWTfCMsLD0cPj8iHPagnbp5/WbIVh4tG6EfIfFaZ+C1hWZSyY9DCsM37NzWynOX2mmswmTWoGgPlbS4pPJoUoQwJjpPE85+cjzpvprv8QFGV+4/xGf9kFzVuVeX28BT36DaQogItoj8EUk1+Prtrx7rvc44YVKZh8vDA1YooYDNMq9lG9RJngWL0LhJn5wN8h/0NbUNoDc0mm8xVbMeQv9USAE/1miTP36NxqQ/Y3SoPxCDqOKvLtZ3utg4cW+/AaL11EDTptwj4iSarRh1QoL6G8a6YhlOnQRuUlgLrHLgKZOQpdIxyJV/P0UfQySkF4n8jXhl5TAT2L1MYm0wonDwZGYo2OGv30/v9GhtKTvsbMQnOk648zcdzeOHRq5pG4wZmTWM6wqhab+1t44bjTPFfc=\", Value: \"ewogICJ0aW1lc3RhbXAiIDogMTYzNzAwMzI5OTcyNywKICAicHJvZmlsZUlkIiA6ICI3NmQ4NjY3YTFjYzA0NDZiYmM1MmY3MTg4M2JjMmE2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXp6ZXJMYWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDlhZWU4YzI4ZDQ4Yzg5YjJiNGI4YTg3ODUzNmExMTc2M2Q2ZTdlZTE1NjE2MjgyNjdhNWYwZTVhZDk5MGRhOSIKICAgIH0KICB9Cn0=\"}]},},}",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tbdsmp:trolling"
+}

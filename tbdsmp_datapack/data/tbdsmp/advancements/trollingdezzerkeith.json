@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Keith!?!?"
+        },
+        "description": {
+            "text": "NO NOT AGAIN"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Keith": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:magma_block"
+            }
+        }
+    },
+    "parent": "tbdsmp:trollingdezzer"
+}

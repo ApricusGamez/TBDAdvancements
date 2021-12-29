@@ -1,0 +1,103 @@
+{
+
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+
+    "display": {
+
+        "title": {
+
+            "text": "You'll Fix That... Right?"
+
+        },
+
+        "description": {
+
+            "text": "You just made a creeper explode so you better fix up that hole! Look I even gave you the items for it :D"
+
+        },
+
+        "icon": {
+
+            "item": "minecraft:creeper_head"
+
+        },
+
+        "frame": "task",
+
+        "show_toast": true,
+
+        "announce_to_chat": true,
+
+        "hidden": false
+
+    },
+
+    "criteria": {
+
+        "FixPls": {
+
+            "trigger": "minecraft:entity_hurt_player",
+
+            "conditions": {
+
+                "damage": {
+
+                    "dealt": {
+
+                        "min": 0,
+
+                        "max": 1000
+
+                    },
+
+                    "taken": {
+
+                        "min": 0,
+
+                        "max": 1000
+
+                    },
+
+                    "type": {
+
+                        "direct_entity": {
+
+                            "type": "minecraft:creeper"
+
+                        },
+
+                        "source_entity": {
+
+                            "type": "minecraft:creeper"
+
+                        }
+
+                    },
+
+                    "source_entity": {
+
+                        "type": "minecraft:creeper"
+
+                    }
+
+                }
+
+            }
+
+        },
+
+        "fixlocation": {
+
+            "trigger": "minecraft:location",
+
+            "conditions": {
+
+                "biome": "minecraft:savanna"
+
+            }
+
+        }
+
+    }
+
+}

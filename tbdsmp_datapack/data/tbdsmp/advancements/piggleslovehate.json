@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "You’re a terrible human being "
+        },
+        "description": {
+            "text": "Do the unthinkable "
+        },
+        "icon": {
+            "item": "minecraft:zombified_piglin_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "KillPiggles": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "nbt": "{UUID: [34823e8870a742d1b13a2180023b64e6]}"
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:piggleslover"
+}

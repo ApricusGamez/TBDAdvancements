@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Bakery Satisfaction"
+        },
+        "description": {
+            "text": "Eat a total of 24 cakes"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "CakeRoom": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cake",
+                    "count": {
+                        "min": 24,
+                        "max": 24
+                    }
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:root"
+}

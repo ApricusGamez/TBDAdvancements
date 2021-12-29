@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Piggles lover"
+        },
+        "description": {
+            "text": "Propose to piggles"
+        },
+        "icon": {
+            "item": "minecraft:pig_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "PigglesPropose": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "nbt": "{UUID: [34823e8870a742d1b13a2180023b64e6]}"
+                },
+                "item": {
+                    "item": "minecraft:diamond"
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:piggles"
+}

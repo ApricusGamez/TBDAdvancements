@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "More iron to know what to do with"
+        },
+        "description": {
+            "text": "Obtain a stack of anvils"
+        },
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Anvil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:anvil",
+                        "count": {
+                            "min": 64,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "tbdsmp:root"
+}

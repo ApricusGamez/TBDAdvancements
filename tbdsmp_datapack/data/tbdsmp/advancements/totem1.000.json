@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Phoenix"
+        },
+        "description": {
+            "text": "Use 1000 Totems of Undying"
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Totem1000": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tbdsmp:totem500"
+}
