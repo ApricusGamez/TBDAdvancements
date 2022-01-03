@@ -20,5 +20,5 @@
             "trigger": "minecraft:entity_killed_player"
         }
     },
-    "parent": "tbdsmp:anvil"
+    "parent": "tbdsmp:anvils/anvil"
 }
