@@ -22,21 +22,10 @@
                 "entity": {
                     "type": "minecraft:player"
                 },
-                "killing_blow": {
-                    "direct_entity": {
-                        "type": "minecraft:player",
-                        "equipment": {
-                            "mainhand": {
-                                "item": "minecraft:poppy"
-                            }
-                        }
-                    },
-                    "source_entity": {
-                        "type": "minecraft:player",
-                        "equipment": {
-                            "mainhand": {
-                                "item": "minecraft:poppy"
-                            }
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": ["poppy"]
                         }
                     }
                 }

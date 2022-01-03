@@ -17,7 +17,12 @@
     },
     "criteria": {
         "Monster": {
-            "trigger": "minecraft:player_killed_entity"
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:axolotl"
+                }
+            }
         }
     },
     "parent": "tbdsmp:root"
