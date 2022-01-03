@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "Squished like a bug"
@@ -16,8 +15,8 @@
         "hidden": false
     },
     "criteria": {
-        "AnvilDeath": {
-            "trigger": "minecraft:entity_killed_player"
+        "anvilImpossible": {
+            "trigger": "minecraft:impossible"
         }
     },
     "parent": "tbdsmp:anvils/anvil"
