@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:anvildeath"
+    "parent": "tbdsmp:anvils/anvildeath"
 }
