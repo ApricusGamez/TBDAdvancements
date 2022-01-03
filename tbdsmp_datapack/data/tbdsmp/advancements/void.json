@@ -21,7 +21,6 @@
             "conditions": {
                 "position": {
                     "y": {
-                        "min": -500,
                         "max": -500
                     }
                 }
