@@ -1,0 +1,1 @@
+give @s stick{display:{Name:'{"text":"Bonking Stick","color":"light_purple","bold":true}',Lore:['{"text":"People go weeeeeeeee","italic":true}']},Enchantments:[{id:"minecraft:knockback",lvl:3s}]} 1

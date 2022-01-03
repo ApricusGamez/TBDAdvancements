@@ -30,13 +30,16 @@
                     "source_entity": {
                         "equipment": {
                             "mainhand": {
-                                "item": "minecraft:stick"
+                                "items": ["minecraft:stick"]
                             }
                         }
                     }
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "tbdsmp:advancements/reward_bonk"
     },
     "parent": "tbdsmp:root"
 }
