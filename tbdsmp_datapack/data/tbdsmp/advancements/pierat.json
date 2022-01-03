@@ -2,7 +2,7 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Pie-rat "
+            "text": "Pie-rat"
         },
         "description": {
             "text": "Eat a pumpkin pie in a shipwreck."
@@ -20,15 +20,16 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:pumpkin_pie"
+                    "items": ["minecraft:pumpkin_pie"]
                 }
             }
         },
         "PieRatLocation": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:ocean",
-                "feature": "shipwreck"
+                "location": {
+                    "feature": "shipwreck"
+                }
             }
         }
     },
