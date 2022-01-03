@@ -1,5 +1,4 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "Life could be a dream"
@@ -20,8 +19,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:warm_ocean",
-                "dimension": "overworld",
-                "smokey": false
+                "player": {
+                    "flags": {
+                        "is_swimming": true
+                    }
+                }
             }
         }
     },
