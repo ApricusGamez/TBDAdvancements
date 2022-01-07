@@ -2,10 +2,10 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Eternal"
+            "text": "Immortal"
         },
         "description": {
-            "text": "Use 500 Totems of Undying"
+            "text": "Use 250 Totems of undying"
         },
         "icon": {
             "item": "minecraft:totem_of_undying"
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "Totem500": {
+        "Totem250": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:totem250"
+    "parent": "tbdsmp:totems/totem100"
 }

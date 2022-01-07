@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:totem500"
+    "parent": "tbdsmp:totems/totem500"
 }

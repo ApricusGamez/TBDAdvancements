@@ -16,18 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "CakeRoom": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "item": "minecraft:cake",
-                    "count": {
-                        "min": 24,
-                        "max": 24
-                    }
-                }
-            }
+        "cake": {
+            "trigger": "minecraft:impossible"
         }
+
     },
     "parent": "tbdsmp:root"
 }
