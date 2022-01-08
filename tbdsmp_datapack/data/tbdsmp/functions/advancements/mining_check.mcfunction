@@ -25,6 +25,12 @@ execute if score @s totems_used matches 500.. run advancement grant @s only tbds
 execute if score @s totems_used matches 1000.. run advancement grant @s only tbdsmp:totems/totem1.000
 execute if score @s totems_used matches 10000.. run advancement grant @s only tbdsmp:totems/totem10.000
 
+#mcc tree
+
+execute if score @s ts_Jump matches 1000.. run advancement grant @s only tbdsmp:mcc/parkourtag
+execute if score @s ts_ChestOpened matches 1000.. run advancement grant @s only tbdsmp:mcc/survivalgames
+
+
 
 
 
