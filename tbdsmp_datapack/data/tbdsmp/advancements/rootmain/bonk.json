@@ -1,0 +1,45 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Bonk"
+        },
+        "description": {
+            "text": "Hit a player with a stick"
+        },
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bonk": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "damage": {
+                    "dealt": {
+                        "min": 0,
+                        "max": 1000000
+                    },
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "items": ["minecraft:stick"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tbdsmp:advancements/reward_bonk"
+    },
+    "parent": "tbdsmp:rootmain/root"
+}

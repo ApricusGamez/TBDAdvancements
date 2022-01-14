@@ -1,0 +1,49 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "This isn't slow falling..."
+        },
+        "description": {
+            "text": "Get mining fatigue at world height"
+        },
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "MiningFatigue": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:mining_fatigue": {
+                        "amplifier": {
+                            "min": 0,
+                            "max": 10000000
+                        },
+                        "duration": {
+                            "min": 1,
+                            "max": 10000000
+                        }
+                    }
+                }
+            }
+        },
+        "WorldHeight": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "y": {
+                        "min": 300,
+                        "max": 330
+                    }
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:rootmain/root"
+}

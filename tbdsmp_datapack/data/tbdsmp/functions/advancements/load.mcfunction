@@ -10,6 +10,3 @@ scoreboard objectives add bells_rung minecraft.custom:minecraft.bell_ring "Bells
     #i dont think we can track dogs tamed
 
 scoreboard objectives add totems_used minecraft.used:minecraft.totem_of_undying "Totems Used"
-
-
-

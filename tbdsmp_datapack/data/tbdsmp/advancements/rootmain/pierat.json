@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Pie-rat"
+        },
+        "description": {
+            "text": "Eat a pumpkin pie in a shipwreck."
+        },
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "PieRatEat": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:pumpkin_pie"]
+                }
+            }
+        },
+        "PieRatLocation": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "shipwreck"
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:rootmain/root"
+}

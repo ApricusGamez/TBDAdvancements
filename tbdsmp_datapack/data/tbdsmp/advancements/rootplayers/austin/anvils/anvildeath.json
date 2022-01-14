@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Squished like a bug"
+        },
+        "description": {
+            "text": "Die by falling anvil"
+        },
+        "icon": {
+            "item": "minecraft:chipped_anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anvilImpossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tbdsmp:rootplayers/austin/anvils/anvil"
+}

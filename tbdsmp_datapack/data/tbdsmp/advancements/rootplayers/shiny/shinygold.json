@@ -1,0 +1,55 @@
+{
+    "__comment": "Made by alyssa :D",
+    "display": {
+        "title": {
+            "text": "Shiny ♪"
+        },
+        "description": {
+            "text": "♪ Shiny, Like a treasure from a sunken pirate wreck ♪"
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+
+        "shinygold": {
+
+            "trigger": "minecraft:inventory_changed",
+
+            "conditions": {
+
+                "items": [
+
+                    {
+
+                        "item": "minecraft:gold_nugget"
+
+                    }
+
+                ]
+
+            }
+
+        },
+
+        "shinylocation": {
+
+            "trigger": "minecraft:location",
+
+            "conditions": {
+
+                "feature": "shipwreck"
+
+            }
+
+        }
+
+
+    },
+    "parent": "tbdsmp:rootplayers/shiny/shiny"
+}
