@@ -104,6 +104,10 @@ execute if score @s wt_tradeIndex matches 50 run data modify entity @s Offers.Re
 
 execute if score @s wt_tradeIndex matches 51 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"§r§eStellxa\"}"},SkullOwner:{Id:[I;904383651,408830081,-2130278432,1522295767],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMyNzVlZTcwZmIwOWQyM2VmMjVhYTQwZTRjNjdmYjg1NTgyOTcyNWI3MzI2ZGMzM2VjZDgxYjBmZDRmMTViZSJ9fX0="}]}}}}}
 
+execute if score @s wt_tradeIndex matches 52 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"§r§eSweat_pugsey\"}"},SkullOwner:{Id:[I;-972941288,1164918855,-1197277925,-836857266],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM2OGExZDhhNmRmMTJiMDRhOTc5YjljMDA4ZGIyZWNkZDQ0MjNkNTFkMTIyYjE4ZmJjNTNjYjVjMDZmN2JiYSJ9fX0="}]}}}}}
+
+execute if score @s wt_tradeIndex matches 53 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"§r§eblueskiesclub\"}"},SkullOwner:{Id:[I;548886734,2047364089,-1560777518,-1756332326],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYyZDg5Yzg2ZTg0ZmQ5NDcwOWFiZjg2NDkxOTQxMDcwMzk5NTIxMjMzMmIzYmQyOWMyNzk2NmM1Y2NlNWZhNyJ9fX0="}]}}}}}
+
 
 
 
