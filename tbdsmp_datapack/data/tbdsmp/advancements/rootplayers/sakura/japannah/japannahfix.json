@@ -33,21 +33,8 @@
     },
 
     "criteria": {
-        "FixPls": {
-            "trigger": "minecraft:entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "type": {
-                        "is_explosion": true
-                    }
-                }
-            }
-        },
-        "fixlocation": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "biome": "minecraft:savanna"
-            }
+        "fix": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": [["FixPls"], ["fixlocation"]],
