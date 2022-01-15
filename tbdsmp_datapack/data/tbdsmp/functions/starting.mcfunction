@@ -5,5 +5,5 @@ gamerule doDaylightCycle true
 gamerule doInsomnia true
 gamerule doWeatherCycle true
 gamerule doMobSpawning true
-effect give @a saturation 10
-effect give @a regeneration 10
+effect give @a saturation 10 10 true
+effect give @a regeneration 10 10 true
