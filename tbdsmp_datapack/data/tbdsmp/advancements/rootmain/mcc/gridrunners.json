@@ -16,10 +16,13 @@
         "hidden": false
     },
     "criteria": {
-        "cake": {
+        "gridrunners": {
             "trigger": "minecraft:impossible"
         }
 
     },
-    "parent": "tbdsmp:rootmain/mcc/skybattle"
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/gridrunners_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/buildmart"
 }

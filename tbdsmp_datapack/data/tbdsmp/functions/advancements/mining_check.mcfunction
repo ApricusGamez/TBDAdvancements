@@ -26,11 +26,6 @@ execute if score @s ts_PlayTime matches 1.. run advancement grant @s only tbdsmp
 
 
 
-#cake
-
-execute if score @s ts_CakeEaten matches 168.. run advancement grant @s only tbdsmp:rootmain/mcc/cake
-
-
 #totems
 
 execute if score @s totems_used matches 5.. run advancement grant @s only tbdsmp:rootmain/totems/totem5
@@ -46,6 +41,12 @@ execute if score @s totems_used matches 10000.. run advancement grant @s only tb
 execute if score @s ts_Jump matches 1000.. run advancement grant @s only tbdsmp:rootmain/mcc/parkourtag
 execute if score @s ts_ChestOpened matches 1000.. run advancement grant @s only tbdsmp:rootmain/mcc/survivalgames
 execute if score @s ts_Sprint matches 1000000.. run advancement grant @s only tbdsmp:rootmain/mcc/acerace
+execute if score @s ts_CakeEaten matches 168.. run advancement grant @s only tbdsmp:rootmain/mcc/gridrunners
+
+execute if score @s mcc_points matches 13.. run advancement grant @s only tbdsmp:rootmain/mcc/winmcc
+
+#death folder
+execute if score @s ts_Deaths matches 1.. run advancement grant @s only tbdsmp:rootmain/death/death
 
 
 

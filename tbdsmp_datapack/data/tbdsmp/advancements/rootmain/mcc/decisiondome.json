@@ -32,5 +32,8 @@
             }
         }
     },
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/decisiondome_reward"
+    },
     "parent": "tbdsmp:rootmain/root"
 }

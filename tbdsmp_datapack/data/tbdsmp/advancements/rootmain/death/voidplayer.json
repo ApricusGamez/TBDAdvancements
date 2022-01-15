@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:rootmain/void"
+    "parent": "tbdsmp:rootmain/death/death"
 }

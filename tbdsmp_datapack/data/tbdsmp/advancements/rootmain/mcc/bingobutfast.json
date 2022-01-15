@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": "Bingo but Fast",
+        "description": "Obtain a map",
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false,
+        "show_toast": true
+    },
+    "criteria": {
+        "bingobutfast":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:filled_map"
+                    }
+                 ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/bingobutfast_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/battlebox"
+}

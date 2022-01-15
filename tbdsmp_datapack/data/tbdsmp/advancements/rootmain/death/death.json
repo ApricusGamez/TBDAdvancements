@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "Death is coming",
+        "description": "Running won't help",
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": false,
+        "show_toast": true
+    },
+    "criteria": {
+        "death": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "tbdsmp:rootmain/root"
+}

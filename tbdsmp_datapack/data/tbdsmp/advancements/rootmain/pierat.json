@@ -23,6 +23,7 @@
                     "items": ["minecraft:pumpkin_pie"]
                 }
             }
+            
         },
         "PieRatLocation": {
             "trigger": "minecraft:location",

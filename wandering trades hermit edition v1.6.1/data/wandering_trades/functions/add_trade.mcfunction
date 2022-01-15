@@ -114,7 +114,6 @@ execute if score @s wt_tradeIndex matches 55 run data modify entity @s Offers.Re
 
 execute if score @s wt_tradeIndex matches 56 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"§r§eZapp_23\"}"},SkullOwner:{Id:[I;759158224,-1365031956,-1097536181,1773166062],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZjNGEwM2UyZjdmZWU0MGFlOWE1MTYzNDZmOTJjNTk4MzA5OTVlNjliNTFjOWViYzNhZWFjNTVjMTYzZjlhYiJ9fX0="}]}}}}}
 
-
 execute if score @s wt_tradeIndex matches 57 run data modify entity @s Offers.Recipes prepend value {rewardExp:0b,maxUses:3,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"{\"text\":\"§r§eLinziEllen\"}"},SkullOwner:{Id:[I;-1544197930,1297238246,-1711949723,-1898005686],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEyMWI2YTgzZmYwZDZhM2JkNThhZWNmOTg1NTdjZDYzMTYwYzFmMjMyN2Y5ODgwZmFlOGQxYWIxOWIwNTNmYSJ9fX0="}]}}}}}
 
 

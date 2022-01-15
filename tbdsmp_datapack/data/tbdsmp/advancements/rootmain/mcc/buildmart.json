@@ -107,6 +107,8 @@
             }
         }
     },
-
-    "parent": "tbdsmp:rootmain/mcc/gridrunners"
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/buildmart_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/bingobutfast"
 }

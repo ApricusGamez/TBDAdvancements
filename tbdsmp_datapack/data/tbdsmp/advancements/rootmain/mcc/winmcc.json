@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "title": "You Won!!!",
+        "description": "Yey",
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true,
+        "show_toast": true
+    },
+    "criteria": {
+        "winning":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/winmcc_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/tgttos"
+}   

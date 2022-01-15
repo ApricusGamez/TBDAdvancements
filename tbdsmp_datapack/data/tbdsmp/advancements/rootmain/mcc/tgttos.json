@@ -21,7 +21,10 @@
             }
         }
     },
-"parent":"tbdsmp:rootmain/mcc/decisiondome"
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/tgttos_reward"
+    },
+"parent":"tbdsmp:rootmain/mcc/survivalgames"
 }
 
 

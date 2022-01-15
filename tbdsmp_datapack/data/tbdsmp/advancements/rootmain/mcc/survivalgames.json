@@ -20,5 +20,8 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:rootmain/mcc/parkourtag"
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/survivalgames_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/sot"
 }

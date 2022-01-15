@@ -2,13 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Ace Race"
+            "text": "Hole in the Wall"
         },
         "description": {
-            "text": "Sprint 10,000 blocks"
+            "text": "Jump on a slime block"
         },
         "icon": {
-            "item": "minecraft:leather_boots"
+            "item": "minecraft:slime_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,12 +16,15 @@
         "hidden": false
     },
     "criteria": {
-        "acerace": {
-            "trigger": "minecraft:impossible"
+        "hitw": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:slime_block"
+            }
         }
     },
     "rewards": {
-        "function": "tbdsmp:advancements/mcc_rewards/acerace_reward"
+        "function": "tbdsmp:advancements/mcc_rewards/hitw_reward"
     },
-    "parent": "tbdsmp:rootmain/mcc/decisiondome"
+    "parent": "tbdsmp:rootmain/mcc/gridrunners"
 }

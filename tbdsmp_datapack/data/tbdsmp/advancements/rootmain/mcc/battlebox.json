@@ -304,5 +304,8 @@
             }
         }
     },
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/battlebox_reward"
+    },
     "parent": "tbdsmp:rootmain/mcc/acerace"
 }

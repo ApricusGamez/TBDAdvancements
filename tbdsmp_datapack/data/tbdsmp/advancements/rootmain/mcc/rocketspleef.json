@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_shovel"
+        },
+        "title": "Rocket Spleef",
+        "description": "Hit another player with a golden shovel",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+
+    },
+    "criteria": {
+        "rocketspleef":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "item": "minecraft:golden_shovel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/rocketspleef_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/parkourtag"
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "title": "Sands of Time",
+        "description": "Obtain a stack of sand",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sand",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "tbdsmp:advancements/mcc_rewards/sot_reward"
+    },
+    "parent": "tbdsmp:rootmain/mcc/skybattle"
+}
