@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:rootplayer/mrk/obby/obby10.000"
+    "parent": "tbdsmp:rootplayers/mrk/obby/obby10.000"
 }
