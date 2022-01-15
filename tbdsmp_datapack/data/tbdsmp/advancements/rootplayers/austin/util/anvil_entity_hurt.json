@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "tbdsmp:anvilcheck"
+    "function": "tbdsmp:advancements/anvilcheck"
   }
 }
