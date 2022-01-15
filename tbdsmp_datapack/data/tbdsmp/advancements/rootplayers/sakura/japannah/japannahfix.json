@@ -1,41 +1,24 @@
 {
-
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-
     "display": {
-
         "title": {
-
             "text": "You'll Fix That... Right?"
-
         },
-
         "description": {
-
             "text": "You just made a creeper explode so you better fix up that hole! Look I even gave you the items for it :D"
-
         },
-
         "icon": {
-
             "item": "minecraft:creeper_head"
-
         },
-
         "frame": "task",
-
         "show_toast": true,
-
         "announce_to_chat": true,
-
         "hidden": false
-
     },
-
     "criteria": {
         "fix": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "tbdsmp:japannah/japannahexpand"
+    "parent": "tbdsmp:rootplayers/sakura/japannah/japannahexpand"
 }
