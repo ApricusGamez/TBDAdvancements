@@ -1,4 +1,4 @@
-fill -1143 -64 1156 -1133 -64 1156 bedrock
+fill -1136 -64 1156 -1133 -64 1156 bedrock
 clear @a
 gamemode survival @a
 worldborder set 59999968
