@@ -1,0 +1,112 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Build Mart"
+        },
+        "description": {
+            "text": "Make a trophy out of gold"
+        },
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "buildmartgold": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:gold_block",
+                                "value": {
+                                    "min": 23
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "buildmartblackconc": {
+        "trigger": "tick",
+        "conditions": {
+            "player": {
+                "player": {
+                    "stats": [
+                        {
+                            "type": "minecraft:used",
+                            "stat": "minecraft:black_concrete",
+                            "value": {
+                                "min": 6
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "buildmartquartz": {
+        "trigger": "tick",
+        "conditions": {
+            "player": {
+                "player": {
+                    "stats": [
+                        {
+                            "type": "minecraft:used",
+                            "stat": "minecraft:quartz_slab",
+                            "value": {
+                                "min": 2
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "buildmartyellowglass": {
+        "trigger": "tick",
+        "conditions": {
+            "player": {
+                "player": {
+                    "stats": [
+                        {
+                            "type": "minecraft:used",
+                            "stat": "minecraft:yellow_glass",
+                            "value": {
+                                "min": 4
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "buildmartblackstonewall": {
+        "trigger": "tick",
+        "conditions": {
+            "player": {
+                "player": {
+                    "stats": [
+                        {
+                            "type": "minecraft:used",
+                            "stat": "minecraft:blackstone_wall",
+                            "value": {
+                                "min": 4
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+
+    "parent": "tbdsmp:rootmain/mcc/gridrunners"
+}

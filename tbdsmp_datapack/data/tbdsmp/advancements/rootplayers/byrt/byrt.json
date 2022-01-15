@@ -2,24 +2,23 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "The Bakery Satisfaction"
+            "text": "Byrt"
         },
         "description": {
-            "text": "Eat a total of 24 cakes"
+            "text": "Smelly"
         },
         "icon": {
-            "item": "minecraft:cake"
+            "item": "minecraft:red_candle"
         },
         "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
+        "show_toast": false,
+        "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "cake": {
+        "alyssa": {
             "trigger": "minecraft:impossible"
         }
-
     },
-    "parent": "tbdsmp:rootmain/mcc/decisiondome"
+    "parent": "tbdsmp:rootplayers/rootplayers"
 }

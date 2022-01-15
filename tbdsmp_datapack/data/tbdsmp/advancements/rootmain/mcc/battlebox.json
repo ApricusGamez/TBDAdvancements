@@ -1,0 +1,308 @@
+{
+    "display": {
+        "title": {
+            "text": "Battle Box"
+        },
+        "description": {
+            "text": "Place 9 of each color wool"
+        },
+        "icon": {
+            "item": "minecraft:white_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": { 
+        "battlebox_wool_white": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:white_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_orange": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:orange_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_magenta": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:magenta_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_light_blue": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:light_blue_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_yellow": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:yellow_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_lime": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:lime_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_pink": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:pink_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_gray": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:gray_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_light_gray": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:light_gray_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_cyan": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:cyan_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_purple": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:purple_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_blue": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:blue_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_brown": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:brown_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_green": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:green_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_red": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:red_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "battlebox_wool_black": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:black_wool",
+                                "value": {
+                                    "min": 9
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:rootmain/mcc/acerace"
+}

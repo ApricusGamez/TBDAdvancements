@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Smelly"
+        },
+        "description": {
+            "text": "Give Byrt a shower"
+        },
+        "icon": {
+            "item": "minecraft:splash_potion"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "smelly": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "nbt": "{UUID: [I;-1815008377,341197091,-1248668583,-1471937189]}"
+                },
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:potion",
+                        "nbt": "{Item:{id:'minecraft:splash_potion',Count:1b,tag:{Potion:'minecraft:water'}}}"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "tbdsmp:rootplayers/byrt/byrt"
+}

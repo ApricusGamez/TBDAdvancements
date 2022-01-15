@@ -22,6 +22,7 @@ execute if score @s ts_PlayTime matches 1.. run advancement grant @s only tbdsmp
 execute if score @s ts_PlayTime matches 1.. run advancement grant @s only tbdsmp:rootplayers/sakura/sakura
 execute if score @s ts_PlayTime matches 1.. run advancement grant @s only tbdsmp:rootplayers/shiny/shiny
 execute if score @s ts_PlayTime matches 1.. run advancement grant @s only tbdsmp:rootplayers/zubi/zubi
+execute if score @s ts_PlayTime matches 1.. run advancement grant @s only tbdsmp:rootplayers/byrt/byrt
 
 
 
@@ -44,6 +45,7 @@ execute if score @s totems_used matches 10000.. run advancement grant @s only tb
 
 execute if score @s ts_Jump matches 1000.. run advancement grant @s only tbdsmp:rootmain/mcc/parkourtag
 execute if score @s ts_ChestOpened matches 1000.. run advancement grant @s only tbdsmp:rootmain/mcc/survivalgames
+execute if score @s ts_Sprint matches 1000000.. run advancement grant @s only tbdsmp:rootmain/mcc/acerace
 
 
 

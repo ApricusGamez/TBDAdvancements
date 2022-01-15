@@ -4,7 +4,7 @@
             "item": "minecraft:red_concrete"
         },
         "title": "Sky Battle",
-        "description": "Place 64 of one color concrete above y=300",
+        "description": "Hook a player with a fishing rod above y=300",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -12,22 +12,30 @@
     },
     "criteria": {
         "skybattle": {
-            "trigger": "minecraft:placed_block",
+            "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
-                "block": "minecraft:red_concrete",
-                "item": {
-                    "count": {
-                        "min":64
-                    }
-                },
-                "location": {
-                    "position": {
-                        "y": {
-                            "min": 300
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "min": 300
+                            }
                         }
                     }
+                },
+                "entity": {
+                    "type": "minecraft:player",
+                    "location": {
+                        "positon": {
+                            "y": {
+                                "min": 300
+                            }
+                        }
+                    }
+
                 }
             }
+
         }
     },
     "parent": "tbdsmp:rootmain/mcc/survivalgames"
