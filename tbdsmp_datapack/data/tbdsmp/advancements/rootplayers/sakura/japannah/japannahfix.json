@@ -37,6 +37,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "requirements": [["FixPls"], ["fixlocation"]],
     "parent": "tbdsmp:japannah/japannahexpand"
 }
