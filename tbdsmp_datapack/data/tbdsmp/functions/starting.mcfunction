@@ -1,9 +1,10 @@
+fill -1143 -64 1156 -1133 -64 1156 bedrock
+clear @a
 gamemode survival @a
 worldborder set 59999968
-scoreboard objectives remove no_pvp
+team remove nopvp
 gamerule doDaylightCycle true
 gamerule doInsomnia true
 gamerule doWeatherCycle true
 gamerule doMobSpawning true
-effect give @a saturation 10 10 true
-effect give @a regeneration 10 10 true
+effect clear @a
