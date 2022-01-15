@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:filled_map"]
+                        "item": "minecraft:filled_map"
                     }
                  ]
             }
