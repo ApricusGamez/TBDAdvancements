@@ -23,7 +23,7 @@
                         "type": "minecraft:player",
                         "equipment": {
                             "mainhand": {
-                                "item": "minecraft:golden_shovel"
+                                "items": ["minecraft:golden_shovel"]
                             }
                         }
                     }
