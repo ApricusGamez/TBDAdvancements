@@ -16,7 +16,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sand",
+                        "items": ["minecraft:sand"],
                         "count": {
                             "min": 64
                         }
