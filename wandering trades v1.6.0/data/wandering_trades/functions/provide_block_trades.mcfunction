@@ -3,8 +3,8 @@
 # Called by: wandering_trades:tick
 
 # Blocks index
-scoreboard players set @s math_input1 1129
-scoreboard players set @s math_input2 1342
+scoreboard players set @s math_input1 129
+scoreboard players set @s math_input2 311
 
 # Count trade as added if it is unique, else try again
 scoreboard players add @s wt_trades 0
@@ -15,6 +15,7 @@ scoreboard players add @s[tag=success] wt_trades 1
 
 # The amount of random trades the trader will have [+0]
 execute if score @s wt_trades >= @s wt_random run tag @s add has_new_block_trades
+execute if score @s wt_trades >= @s wt_random run tag @s add has_new_trades
 execute if score @s wt_trades >= @s wt_random run scoreboard players reset @s
 
 # Remove success and try add trade again
